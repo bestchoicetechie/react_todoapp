@@ -1,0 +1,32 @@
+.todo-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  text-align: left;
+}
+.todo-control label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+.todo-control input,
+.todo-control select {
+  font: inherit;
+  padding: 0.5rem;
+  width: 20rem;
+  max-width: 100%;
+  border: 1px solid #ccc;
+}
+
+.new-todo button {
+  font: inherit;
+  cursor: pointer;
+  padding: 1rem 2rem;
+  background-color: crimson;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+.todo-actions {
+  text-align: right;
+}
